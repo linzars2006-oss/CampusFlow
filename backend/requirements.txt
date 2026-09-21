@@ -1,0 +1,15 @@
+Django
+djangorestframework
+djangorestframework-simplejwt
+psycopg2-binary
+pymongo
+dnspython
+numpy
+pandas
+scikit-learn
+xgboost
+torch
+tensorflow
+shap
+fastapi
+uvicorn

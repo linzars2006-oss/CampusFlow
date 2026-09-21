@@ -1,0 +1,114 @@
+{
+  "Rule-Based Baseline": {
+    "Accuracy": 0.8756,
+    "Macro-Precision": 0.8903,
+    "Macro-Recall": 0.8472,
+    "Macro-F1": 0.8542,
+    "Per-Class-F1": [
+      0.9259,
+      0.8033,
+      0.8333
+    ],
+    "Confusion_Matrix": [
+      [
+        100,
+        13,
+        0
+      ],
+      [
+        3,
+        49,
+        0
+      ],
+      [
+        0,
+        8,
+        20
+      ]
+    ]
+  },
+  "Logistic Regression": {
+    "Accuracy": 0.9845,
+    "Macro-Precision": 0.9818,
+    "Macro-Recall": 0.9912,
+    "Macro-F1": 0.9862,
+    "Per-Class-F1": [
+      0.9865,
+      0.972,
+      1.0
+    ],
+    "Confusion_Matrix": [
+      [
+        110,
+        3,
+        0
+      ],
+      [
+        0,
+        52,
+        0
+      ],
+      [
+        0,
+        0,
+        28
+      ]
+    ]
+  },
+  "XGBoost": {
+    "Accuracy": 1.0,
+    "Macro-Precision": 1.0,
+    "Macro-Recall": 1.0,
+    "Macro-F1": 1.0,
+    "Per-Class-F1": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "Confusion_Matrix": [
+      [
+        113,
+        0,
+        0
+      ],
+      [
+        0,
+        52,
+        0
+      ],
+      [
+        0,
+        0,
+        28
+      ]
+    ]
+  },
+  "Sequential LSTM (Ours)": {
+    "Accuracy": 0.9793,
+    "Macro-Precision": 0.9785,
+    "Macro-Recall": 0.9847,
+    "Macro-F1": 0.9815,
+    "Per-Class-F1": [
+      0.9821,
+      0.9623,
+      1.0
+    ],
+    "Confusion_Matrix": [
+      [
+        110,
+        3,
+        0
+      ],
+      [
+        1,
+        51,
+        0
+      ],
+      [
+        0,
+        0,
+        28
+      ]
+    ]
+  }
+}
